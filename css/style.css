@@ -1,0 +1,280 @@
+body {
+  background-color: #f509099a;
+}
+#naslov{
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman";
+  color: black;
+  font-size: 90px;
+  text-shadow: 6px 2px black;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  
+}
+
+#meni{
+  height: 20%;
+}
+
+.igralec,
+.playerGame {
+  position: absolute;
+  text-align: center;
+  font-family: "Times New Roman";
+  color: black;
+  top: 15%;
+  font-size: 25px;
+  width: 18%;
+  height: 20%;
+  font-weight: 700;
+  background-color: #5a585ae3;
+  border-radius: 20%;
+}
+
+.playerGame {
+  height: 28%;
+}
+
+#igralec1 {
+  left: 22%;
+}
+
+#igralec2 {
+  left: 41%;
+}
+
+#igralec3 {
+  left: 60%;
+}
+
+.igralecInput {
+  width: 140px;
+  height: 20px;
+  position: relative;
+  top: 20%;
+  border: none;
+  background-color: #c3e3f1;
+  font-family: "Times New Roman";
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+.igralecInput:focus,
+#rounds:focus {
+  outline: none;
+}
+
+#submit,
+#results,
+.roll {
+  position: absolute;
+  margin: 0;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #c90c0cbb;
+  border: none;
+  color: #c3e3f1;
+  border-radius: 20%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  font-family: "Times New Roman";
+  cursor: pointer;
+}
+
+.igralecNas {
+  position: relative;
+  top: 50%;
+}
+
+#userOne,
+#userTwo,
+#userThree {
+  font-size: 33px;
+}
+
+.rollsLeft {
+  top: 26%;
+}
+
+.roll {
+  padding: 10px 20px;
+  font-size: 21px;
+  top: 115%;
+}
+
+#results {
+  font-size: 21px;
+  top: 89%;
+  padding: 11px 32px;
+  opacity: 0;
+  cursor: default;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: #aa8288;
+}
+
+.dicePic {
+  position: relative;
+  top: 25%;
+}
+
+.winners {
+  background: #5a585ae3;
+  position: absolute;
+}
+
+#second {
+  width: 20%;
+  height: 50%;
+  top: 50%;
+  left: 19%;
+}
+
+#first {
+  width: 20%;
+  height: 80%;
+  top: 20%;
+  left: 40%;
+}
+
+#third {
+  width: 20%;
+  height: 30%;
+  top: 70%;
+  left: 61%;
+}
+
+.number {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 80px;
+  top: 3%;
+}
+
+.name {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman";
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#secondPlayer {
+  top: 30%;
+}
+
+#firstPlayer {
+  top: 20%;
+}
+
+#thirdPlayer {
+  top: 45%;
+}
+
+#secondScore {
+  top: 45%;
+}
+
+#firstScore {
+  top: 30%;
+}
+
+#thirdScore {
+  top: 70%;
+}
+
+#timeWrapper {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-family: "Times New Roman";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: inline-table;
+}
+#time {
+  display: table-cell;
+}
+
+#rounds,
+#roundsTitle {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Times New Roman";
+  top: 25%;
+}
+
+#rounds {
+  width: 60px;
+  height: 22px;
+  font-family: "Times New Roman";
+  top: 73%;
+  border: none;
+  background-color: #c3e3f1;
+  font-family: tahoma;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+#roundsWrapper {
+  position: absolute;
+  font-family: "Times New Roman";
+  color: #c3e3f1;
+  border: solid 2px #ffffff;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: #63435d;
+  width: 22.5%;
+  height: 15%;
+  left: 7%;
+  top: 77%;
+  font-size: 18.5px;
+}
+
+#diceWrapper {
+  position: absolute;
+  font-family: "Times New Roman";
+  color: #ffffff;
+  border: solid 4px #c90c0cbb;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: #63435d;
+  width: 22.5%;
+  height: 15%;
+  left: 69%;
+  top: 77%;
+  font-size: 18.5px;
+}
+
+input,
+select {
+  text-align: center;
+}
